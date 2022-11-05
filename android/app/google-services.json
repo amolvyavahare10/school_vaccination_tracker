@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "179098548943",
+    "project_id": "vaccine-tracker-22889",
+    "storage_bucket": "vaccine-tracker-22889.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179098548943:android:fd136ee5a1eca98a7cd5ba",
+        "android_client_info": {
+          "package_name": "Vaccine.Tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179098548943-ois1pvciemlqgpi5skj2c2m3v9a2dl41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Vaccine.Tracker",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "179098548943-er73r4jmlb8914fpbducr5rro82vgb1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxRdveCY7yhFXr1K2wtcOo_u5ut4Gr6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179098548943-er73r4jmlb8914fpbducr5rro82vgb1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "179098548943-dgjhn2k99stf6cpc5969a2pd74kors77.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Vaccine.Tracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

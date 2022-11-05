@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>179098548943-dgjhn2k99stf6cpc5969a2pd74kors77.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.179098548943-dgjhn2k99stf6cpc5969a2pd74kors77</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>179098548943-ois1pvciemlqgpi5skj2c2m3v9a2dl41.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBlAy_6eQDXir-vY8DwRbJNoHvAC2jBeio</string>
+	<key>GCM_SENDER_ID</key>
+	<string>179098548943</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Vaccine.Tracker</string>
+	<key>PROJECT_ID</key>
+	<string>vaccine-tracker-22889</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vaccine-tracker-22889.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:179098548943:ios:d94663d48e2ea56c7cd5ba</string>
+</dict>
+</plist>
