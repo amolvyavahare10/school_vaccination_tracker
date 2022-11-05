@@ -9,7 +9,6 @@ part of 'serializers.dart';
 Serializers _$serializers = (new Serializers().toBuilder()
       ..add(DrivesRecord.serializer)
       ..add(StudentsRecord.serializer)
-      ..add(ToDoListRecord.serializer)
       ..add(UsersRecord.serializer))
     .build();
 

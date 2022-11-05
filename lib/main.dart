@@ -83,12 +83,9 @@ class _MyAppState extends State<MyApp> {
           ? Builder(
               builder: (context) => Container(
                 color: Colors.transparent,
-                child: Center(
-                  child: Image.asset(
-                    'assets/images/todo_0.0_Splash@3x.png',
-                    width: MediaQuery.of(context).size.width,
-                    fit: BoxFit.fitWidth,
-                  ),
+                child: Image.asset(
+                  'assets/images/5386938.jpg',
+                  fit: BoxFit.fitWidth,
                 ),
               ),
             )
@@ -111,7 +108,7 @@ class NavBarPage extends StatefulWidget {
 
 /// This is the private State class that goes with NavBarPage.
 class _NavBarPageState extends State<NavBarPage> {
-  String _currentPageName = 'upcomingDrives';
+  String _currentPageName = 'Dashboard';
   late Widget? _currentPage;
 
   @override

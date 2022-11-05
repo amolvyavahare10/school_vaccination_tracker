@@ -385,7 +385,7 @@ class _DashboardWidgetState extends State<DashboardWidget>
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Students Vaccinated',
+                                            'Students Vaccinated Fully',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2,
                                           ),

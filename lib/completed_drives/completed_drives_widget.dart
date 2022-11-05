@@ -131,7 +131,8 @@ class _CompletedDrivesWidgetState extends State<CompletedDrivesWidget>
                 child: PagedListView<DocumentSnapshot<Object?>?, DrivesRecord>(
                   pagingController: () {
                     final Query<Object?> Function(Query<Object?>) queryBuilder =
-                        (drivesRecord) => drivesRecord;
+                        (drivesRecord) =>
+                            drivesRecord.where('driveState', isEqualTo: true);
                     if (_pagingController != null) {
                       final query = queryBuilder(DrivesRecord.collection);
                       if (query != _pagingQuery) {
@@ -148,7 +149,8 @@ class _CompletedDrivesWidgetState extends State<CompletedDrivesWidget>
                     _pagingQuery = queryBuilder(DrivesRecord.collection);
                     _pagingController!.addPageRequestListener((nextPageMarker) {
                       queryDrivesRecordPage(
-                        queryBuilder: (drivesRecord) => drivesRecord,
+                        queryBuilder: (drivesRecord) =>
+                            drivesRecord.where('driveState', isEqualTo: true),
                         nextPageMarker: nextPageMarker,
                         pageSize: 25,
                         isStream: true,

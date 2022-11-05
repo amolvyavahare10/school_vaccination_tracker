@@ -209,7 +209,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                                     ),
                                   ),
                                   style: FlutterFlowTheme.of(context).bodyText1,
-                                  maxLines: null,
                                   validator: (val) {
                                     if (val == null || val.isEmpty) {
                                       return 'That password doesn\'t match.';
@@ -237,7 +236,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) => NavBarPage(
-                                            initialPage: 'upcomingDrives'),
+                                            initialPage: 'Dashboard'),
                                       ),
                                       (r) => false,
                                     );

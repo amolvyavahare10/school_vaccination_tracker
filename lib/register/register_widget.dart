@@ -236,7 +236,6 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                 ),
                               ),
                               style: FlutterFlowTheme.of(context).bodyText1,
-                              maxLines: null,
                             ),
                           ),
                           Padding(
@@ -297,7 +296,6 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                 ),
                               ),
                               style: FlutterFlowTheme.of(context).bodyText1,
-                              maxLines: null,
                             ),
                           ),
                           Padding(
@@ -336,8 +334,8 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                 await Navigator.pushAndRemoveUntil(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => NavBarPage(
-                                        initialPage: 'upcomingDrives'),
+                                    builder: (context) =>
+                                        NavBarPage(initialPage: 'Dashboard'),
                                   ),
                                   (r) => false,
                                 );
@@ -378,7 +376,7 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 0, 0, 6),
                               child: Text(
-                                'Don’t have an account yet? ',
+                                'Already have an account? ',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
